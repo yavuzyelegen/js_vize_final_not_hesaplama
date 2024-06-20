@@ -1,0 +1,30 @@
+*{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+}
+
+#finalHesap{
+    margin-left: 30%;
+    margin-top: 6%;
+    background-color:rgb(18, 81, 137);
+    display: inline-block;
+    width: 20%;
+}
+
+#gonderBtn{
+    width: 30%;
+    margin-left:65%;
+}
+
+#form{
+    background-color:rgb(15, 109, 191);
+    margin: 8%;
+}
+
+h1{
+    background-color:rgb(15, 109, 191);
+}

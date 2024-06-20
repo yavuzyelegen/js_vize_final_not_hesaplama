@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../sinav_not_hesaplama/style.css">
+
+</head>
+<body>
+    <div id="finalHesap">   
+        <h1>Final notu hesaplama</h1>
+        <form id="form" onsubmit="return myFunction(event)">
+            <label for="vize1">Vize 1: </label>
+            <input type="number" name="vize1" id="vize1" min="0" max="100"><br>
+            <label for="vize2">Vize 2: </label>
+            <input type="number" name="vize2" id="vize2" min="0" max="100"><br>
+            <label for="final">Final: </label>
+            <input type="number" name="final" id="final" min="0" max="100"><br>
+            <label for="finalKatsayi">Final katsayı: </label>
+            <input type="number" name="finalKatsayi" id="finalKatsayi" min="0" max="100"><br>
+            <input type="submit" id="gonderBtn" value="Gönder">
+            <p id="sonuc"></p>
+        </form>
+    </div>
+    <script src="../sinav_not_hesaplama/app.js"></script>
+</body>
+</html>
