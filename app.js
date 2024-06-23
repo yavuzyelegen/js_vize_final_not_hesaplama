@@ -12,5 +12,5 @@ function myFunction(event){
     
     const finalNotu = final*finalKatsayi/100+(vize1+vize2)/2*(100-finalKatsayi)/100;
     
-    document.getElementById("sonuc").innerHTML="final notunuz "+finalNotu.toFixed(2);
+    document.getElementById("sonuc").innerHTML="Final notunuz "+finalNotu.toFixed(2);
 }
