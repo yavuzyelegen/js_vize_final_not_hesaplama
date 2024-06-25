@@ -1,10 +1,39 @@
-#finalHesap{
-    padding: 40px;
-    margin: 40px;
+#navbar{
+    display: inline;
+    width: 100%;
+    position: fixed;
+    list-style-type:none;
+    top:20px;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 26px 16px;
+    float: left;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    background-color:#1694d3;
+}
+
+body{
+    background-color: paleturquoise;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+#cerceve{
+    margin-left: 35%;
 }
 
 .formSatir{
     display: block;
-    text-align: left;
-    padding: 4px;
+    text-align: right;
+    margin-bottom: 15px;
 }
