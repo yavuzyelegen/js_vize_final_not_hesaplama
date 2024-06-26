@@ -1,0 +1,32 @@
+#container div{
+    width: 50%;
+    display: inline-block;
+    min-height: 400px;
+    margin: 0px;
+    border-radius: 1%;
+}
+
+#container{
+    display: block;
+    top: 60%;
+    display: flex;
+    gap: 25px;
+
+}
+
+#vesikalik{
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#kbilgi{
+    text-align: center;
+}
+
+p{
+    color: rgb(145, 255, 218);
+}

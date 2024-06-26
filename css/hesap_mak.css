@@ -1,0 +1,9 @@
+
+div#hesap_mak{
+    margin-left: 35%;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 1%;
+}
