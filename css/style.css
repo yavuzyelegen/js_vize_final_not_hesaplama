@@ -18,6 +18,7 @@
     color: aquamarine;
     font-size: 15px;
 }
+
 #navbar li a:hover{
     background-color:#1694d3;
 }
@@ -26,13 +27,6 @@ body{
     background-color: paleturquoise;
     margin-top: 10%;
     margin-bottom: 12%;
-}
-
-#cerceve{
-    margin-left: 35%;
-    max-width: 450px;
-    -ms-transform-origin-x: auto;
-    width: auto;   
 }
 
 input.veriGiris{

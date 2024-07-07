@@ -1,0 +1,16 @@
+
+#cerceve{
+    margin-left: 35%;
+    max-width: 450px;
+    -ms-transform-origin-x: auto;
+    width: auto;   
+}
+
+#header{
+    border-radius:  10px/10px;
+    color: #212529bf;
+}
+
+#form{
+    border-radius:  10px/10px;
+}
